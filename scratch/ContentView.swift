@@ -23,7 +23,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TextField("single line text field for test", text: $textFieldValue)
-                
+
             if #available(macOS 11.0, *) {
                 TextEditor(text: $textViewValue)
             } else {

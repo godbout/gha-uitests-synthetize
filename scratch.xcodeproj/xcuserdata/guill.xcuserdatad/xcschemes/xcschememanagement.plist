@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>gha-uitests-synthetize.xcscheme_^#shared#^_</key>
+		<key>scratch.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>91F19007265A662D00FE2C4D</key>
+		<key>919B168D265AD26100FBD292</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91F1901C265A662E00FE2C4D</key>
+		<key>919B16A2265AD26200FBD292</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91F19027265A662E00FE2C4D</key>
+		<key>919B16AD265AD26200FBD292</key>
 		<dict>
 			<key>primary</key>
 			<true/>
