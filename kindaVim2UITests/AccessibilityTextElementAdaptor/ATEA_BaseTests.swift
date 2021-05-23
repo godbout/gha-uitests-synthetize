@@ -2,18 +2,14 @@ import XCTest
 
 class ATEA_BaseTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        XCUIApplication().terminate()
+    var app: XCUIApplication!
 
+    override func setUpWithError() throws {
         try super.setUpWithError()
 
         continueAfterFailure = false
 
-        XCUIApplication().launch()
+        app = XCUIApplication()
+        app.launch()
     }
-
-    override func tearDown() {
-        XCUIApplication().terminate()
-    }
-
 }

@@ -9,10 +9,8 @@ class to_TF_AXCaretLocationTests: ATEA_BaseTests {
             axCaretLocation: 0
         )
 
-        sleep(15)
-
-        XCUIApplication().textFields.firstMatch.tap()
-        XCUIApplication().textFields.firstMatch.typeText(text)
+        app.textFields.firstMatch.tap()
+        app.textFields.firstMatch.typeText(text)
 
         let conversionSucceeded = AccessibilityTextElementAdaptor.toAXFocusedElememt(from: accessibilityElement)
         XCTAssertTrue(conversionSucceeded)
