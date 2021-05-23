@@ -1,4 +1,4 @@
-name: UI Tests
+name: tests and coverage
 
 on:
   push:
@@ -38,5 +38,13 @@ jobs:
         # import certificate to keychain
         security import $CERTIFICATE_PATH -P $P12_PASSWORD -A -t cert -f pkcs12 -k $KEYCHAIN_PATH
         security list-keychain -d user -s $KEYCHAIN_PATH
+    # - name: build
+    #   run: xcodebuild clean -scheme kindaVim build
+    # - name: run tests (except AccessibilityTextElementAdaptor UITests)
+    #   run: xcodebuild clean -scheme kindaVim -configuration Testing test
     - name: run UI Tests
-      run: xcodebuild clean -scheme gha-uitests-synthetize -configuration Debug test
+      run: xcodebuild clean -scheme "AccessibilityTextElementAdaptor UITests" -configuration "UI Testing" test
+    # - name: upload coverage to codecov
+    #   run: bash <(curl -s https://codecov.io/bash)
+    #   env:
+    #     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
