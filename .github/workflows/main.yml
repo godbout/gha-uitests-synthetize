@@ -43,7 +43,7 @@ jobs:
     # - name: run tests (except AccessibilityTextElementAdaptor UITests)
     #   run: xcodebuild clean -scheme kindaVim -configuration Testing test
     - name: run UI Tests
-      run: xcodebuild clean -scheme "AccessibilityTextElementAdaptor UITests" -configuration "UI Testing" test
+      run: xcodebuild clean -scheme kindaVim2 -configuration Debug test
     # - name: upload coverage to codecov
     #   run: bash <(curl -s https://codecov.io/bash)
     #   env:
