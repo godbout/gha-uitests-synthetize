@@ -18,12 +18,12 @@
 		91681F48265AC9C30024670D /* AccessibilityTextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F47265AC9C30024670D /* AccessibilityTextElement.swift */; };
 		91681F50265AC9D30024670D /* AccessibilityTextElementAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F4F265AC9D30024670D /* AccessibilityTextElementAdaptor.swift */; };
 		91681F56265AC9F60024670D /* AXEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F55265AC9F60024670D /* AXEngine.swift */; };
-		91681F65265ACA4C0024670D /* from_TF_AXCaretLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F60265ACA4C0024670D /* from_TF_AXCaretLocationTests.swift */; };
-		91681F66265ACA4C0024670D /* ATEA_BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F61265ACA4C0024670D /* ATEA_BaseTests.swift */; };
-		91681F67265ACA4C0024670D /* to_TF_AXCaretLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F64265ACA4C0024670D /* to_TF_AXCaretLocationTests.swift */; };
 		91681F6E265ACA5A0024670D /* AccessibilityTextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F47265AC9C30024670D /* AccessibilityTextElement.swift */; };
 		91681F72265ACA5D0024670D /* AccessibilityTextElementAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F4F265AC9D30024670D /* AccessibilityTextElementAdaptor.swift */; };
 		91681F76265ACA5F0024670D /* AXEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F55265AC9F60024670D /* AXEngine.swift */; };
+		91681F96265ACD240024670D /* from_TF_AXCaretLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F91265ACD240024670D /* from_TF_AXCaretLocationTests.swift */; };
+		91681F97265ACD240024670D /* ATEA_BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F92265ACD240024670D /* ATEA_BaseTests.swift */; };
+		91681F98265ACD240024670D /* to_TF_AXCaretLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91681F95265ACD240024670D /* to_TF_AXCaretLocationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		91681F47265AC9C30024670D /* AccessibilityTextElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextElement.swift; sourceTree = "<group>"; };
 		91681F4F265AC9D30024670D /* AccessibilityTextElementAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextElementAdaptor.swift; sourceTree = "<group>"; };
 		91681F55265AC9F60024670D /* AXEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXEngine.swift; sourceTree = "<group>"; };
-		91681F60265ACA4C0024670D /* from_TF_AXCaretLocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = from_TF_AXCaretLocationTests.swift; sourceTree = "<group>"; };
-		91681F61265ACA4C0024670D /* ATEA_BaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATEA_BaseTests.swift; sourceTree = "<group>"; };
-		91681F64265ACA4C0024670D /* to_TF_AXCaretLocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = to_TF_AXCaretLocationTests.swift; sourceTree = "<group>"; };
+		91681F91265ACD240024670D /* from_TF_AXCaretLocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = from_TF_AXCaretLocationTests.swift; sourceTree = "<group>"; };
+		91681F92265ACD240024670D /* ATEA_BaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATEA_BaseTests.swift; sourceTree = "<group>"; };
+		91681F95265ACD240024670D /* to_TF_AXCaretLocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = to_TF_AXCaretLocationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 		9129733C265AC911005DD94A /* kindaVim2UITests */ = {
 			isa = PBXGroup;
 			children = (
-				91681F5D265ACA4C0024670D /* AccessibilityTextElementAdaptor */,
+				91681F8E265ACD240024670D /* AccessibilityTextElementAdaptor */,
 				9129733D265AC911005DD94A /* kindaVim2UITests.swift */,
 				9129733F265AC911005DD94A /* Info.plist */,
 			);
@@ -173,45 +173,44 @@
 			path = AXEngine;
 			sourceTree = "<group>";
 		};
-		91681F5D265ACA4C0024670D /* AccessibilityTextElementAdaptor */ = {
+		91681F8E265ACD240024670D /* AccessibilityTextElementAdaptor */ = {
 			isa = PBXGroup;
 			children = (
-				91681F5E265ACA4C0024670D /* fromAXFocusedElement */,
-				91681F61265ACA4C0024670D /* ATEA_BaseTests.swift */,
-				91681F62265ACA4C0024670D /* toAXFocusedElement */,
+				91681F8F265ACD240024670D /* fromAXFocusedElement */,
+				91681F92265ACD240024670D /* ATEA_BaseTests.swift */,
+				91681F93265ACD240024670D /* toAXFocusedElement */,
 			);
-			name = AccessibilityTextElementAdaptor;
-			path = ../../kv/kindaVimUITests/AccessibilityTextElementAdaptor;
+			path = AccessibilityTextElementAdaptor;
 			sourceTree = "<group>";
 		};
-		91681F5E265ACA4C0024670D /* fromAXFocusedElement */ = {
+		91681F8F265ACD240024670D /* fromAXFocusedElement */ = {
 			isa = PBXGroup;
 			children = (
-				91681F5F265ACA4C0024670D /* TextFields */,
+				91681F90265ACD240024670D /* TextFields */,
 			);
 			path = fromAXFocusedElement;
 			sourceTree = "<group>";
 		};
-		91681F5F265ACA4C0024670D /* TextFields */ = {
+		91681F90265ACD240024670D /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
-				91681F60265ACA4C0024670D /* from_TF_AXCaretLocationTests.swift */,
+				91681F91265ACD240024670D /* from_TF_AXCaretLocationTests.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
 		};
-		91681F62265ACA4C0024670D /* toAXFocusedElement */ = {
+		91681F93265ACD240024670D /* toAXFocusedElement */ = {
 			isa = PBXGroup;
 			children = (
-				91681F63265ACA4C0024670D /* TextFields */,
+				91681F94265ACD240024670D /* TextFields */,
 			);
 			path = toAXFocusedElement;
 			sourceTree = "<group>";
 		};
-		91681F63265ACA4C0024670D /* TextFields */ = {
+		91681F94265ACD240024670D /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
-				91681F64265ACA4C0024670D /* to_TF_AXCaretLocationTests.swift */,
+				91681F95265ACD240024670D /* to_TF_AXCaretLocationTests.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -368,11 +367,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				91681F72265ACA5D0024670D /* AccessibilityTextElementAdaptor.swift in Sources */,
-				91681F67265ACA4C0024670D /* to_TF_AXCaretLocationTests.swift in Sources */,
+				91681F97265ACD240024670D /* ATEA_BaseTests.swift in Sources */,
 				9129733E265AC911005DD94A /* kindaVim2UITests.swift in Sources */,
 				91681F76265ACA5F0024670D /* AXEngine.swift in Sources */,
-				91681F66265ACA4C0024670D /* ATEA_BaseTests.swift in Sources */,
-				91681F65265ACA4C0024670D /* from_TF_AXCaretLocationTests.swift in Sources */,
+				91681F98265ACD240024670D /* to_TF_AXCaretLocationTests.swift in Sources */,
+				91681F96265ACD240024670D /* from_TF_AXCaretLocationTests.swift in Sources */,
 				91681F6E265ACA5A0024670D /* AccessibilityTextElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
