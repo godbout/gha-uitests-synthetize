@@ -1,6 +1,6 @@
 import Foundation
 
-struct AX{
+struct AXEngine {
 
     static func axFocusedElement() -> AXUIElement? {
         let axSystemWideElement = AXUIElementCreateSystemWide()
@@ -38,20 +38,6 @@ struct AX{
         }
 
         return nil
-    }
-
-    static func toAXFocusedElememt() -> Bool {
-        guard let axFocusedElement = AX.axFocusedElement() else { return false }
-
-        var selectedTextRange = CFRange()
-        selectedTextRange.location = 1
-        selectedTextRange.length = 0
-
-        let newValue = AXValueCreate(.cfRange, &selectedTextRange)
-
-        guard AXUIElementSetAttributeValue(axFocusedElement, kAXSelectedTextRangeAttribute as CFString, newValue!) == .success else { return false }
-
-        return true
     }
 
 }

@@ -20,24 +20,10 @@
                ReferencedContainer = "container:gha-uitests-synthetize.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91F19027265A662E00FE2C4D"
-               BuildableName = "gha-uitests-synthetizeUITests.xctest"
-               BlueprintName = "gha-uitests-synthetizeUITests"
-               ReferencedContainer = "container:gha-uitests-synthetize.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "UI Testing"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91F1901C265A662E00FE2C4D"
-               BuildableName = "gha-uitests-synthetizeTests.xctest"
-               BlueprintName = "gha-uitests-synthetizeTests"
+               BlueprintIdentifier = "91F19027265A662E00FE2C4D"
+               BuildableName = "gha-uitests-synthetizeUITests.xctest"
+               BlueprintName = "gha-uitests-synthetizeUITests"
                ReferencedContainer = "container:gha-uitests-synthetize.xcodeproj">
             </BuildableReference>
          </TestableReference>
