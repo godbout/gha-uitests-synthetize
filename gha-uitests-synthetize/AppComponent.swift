@@ -11,6 +11,8 @@ class AppComponent {
         //        NSApplication.shared.hide(self)
 
         #if UITESTING
+        NSApplication.shared.setActivationPolicy(.regular)
+        
         let contentView = ContentView()
 
         accessibilityElementAdaptorTestingWindow = NSWindow(
